@@ -1,3 +1,7 @@
+html {
+  font-size: 16 px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0 10%;
@@ -12,7 +16,7 @@ header {
 
 h1 {
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2rem;
   text-align: left;
 }
 
@@ -53,49 +57,58 @@ a:visited {
   padding: 10px;
   margin: 0px auto;
   position: relative;
-  top: 100px;  
+  top: 100px;
+  height: 400px;
 }
 
 .color-container {
   width: 100%;
+  display: flex;
 }
 
 .color-panel {
-  display: inline-block;
   width: 32%;
   text-align: center;
   margin: 20px auto;
   min-height: 100px;
+  padding: 0 10px;
 }
 
 .white {
   background-color: white;
-  color: mediumblue;
+  color: black;
   border: 1px solid;
 }
 
 .red {
   background-color: red;
   color: white;
+  border: 1px solid red;
 }
 
 .rebecca-purple {
   background-color: rebeccapurple;
   color:antiquewhite;
+  border: 1px solid rebeccapurple;
 }
 
 .medium-blue {
   background-color: mediumblue;
   color: white;
+  border: 1px solid mediumblue;
+}
+
+.font-container {
+  display:flex;
+  align-items: center;
 }
 
 .font-panel {
   width: 45%;
-  display: inline-block;
 }
 
 .font-label {
-  font-size: 26px;
+  font-size: 1.5rem;
   text-decoration: underline;
 }
 
@@ -126,6 +139,11 @@ a:visited {
 
 .Montserrat {
   font-family: 'Montserrat', sans-serif;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
 }
 
 .text-panel {
